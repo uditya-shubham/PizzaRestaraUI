@@ -1,0 +1,445 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width:100vw;
+    background-color: black;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+/* Responsive styles */
+@media (max-width: 750px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+  
+  
+}
+
+
+.nav-icons>li>img{
+    height: 35px;
+    width: 35px;
+}
+.nav-icons li{
+    list-style: none;
+}
+
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pizza1{
+    display: block;
+    height: 1110px;
+    width: 100%;
+    background-image: url(./images/pizza1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.crave{
+    width:50vw;
+
+}
+
+.crave>p{
+    margin-top:0px;
+    padding-top: 100px;
+    color: white;
+    font-family: Quattrocento;
+    font-size: 101px;
+    font-weight: 700;
+    /* line-height: 108.5px; */
+    letter-spacing: 0.09em;
+    text-align: center;
+
+}
+.craveline{
+    margin-left: 3vw;
+    width: 40vw;
+    height: 13px;
+    background-color:#F24C4C;
+}
+.cravelorem{
+    color: #FFFFFF;
+    margin-left:3vw;
+    margin-top: 60px;
+    width: 40vw;
+    /* margin-bottom: 3vh; */
+   
+
+}
+.cravelorem p{
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    /* line-height: 40px; */
+    letter-spacing: 0.09em;
+    text-align: left;
+}
+
+#about{
+
+    background-color:black;
+    height: 1400px;
+    width: 100%;
+    color: #FFFFFF;
+    margin-top:-80px ;
+  
+}
+#ab-p1{
+    font-family: Quattrocento;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    /* text-decoration: underline;
+    text-decoration-color:#F24C4C;
+    text-decoration-thickness: 7px; */
+}
+
+#ab-span{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+
+}
+#ab-p2{
+    width: 40vw;
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    /* line-height: 40px; */
+    letter-spacing: 0.09em;
+    text-align: left;
+      
+}
+#brd-p2{
+    width: 30%;
+height: 4px;
+top: 1404px;
+left: 193px;
+gap: 0px;
+opacity: 0px;
+
+
+    background: #F24C4C;
+ 
+}
+@media (min-width: 1000px) {
+    
+#brd-p2{
+    margin-left: 10%;
+}
+  
+  
+}
+
+#ab-span>img{
+    width: 631px;
+    height: 506px;
+    top: 1368px;
+    left: 949px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+}
+#menu{
+    background-color:black;
+    /* height: 950px; */
+    width: 100%;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: -80px;
+    padding: 0;
+    box-sizing: border-box;
+    /* padding-top: 1px; */
+
+}
+#mp1{
+    font-family: Quattrocento;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.menuline{
+    display: block;
+    width: 250px;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-65px;
+    
+    
+    background-color: #F24C4C;
+}
+.aboutline{
+    display: block;
+    width: 400px;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-65px;
+    
+    
+    background-color: #F24C4C;
+}
+
+#menu-p1{
+    width: 100%;
+height: 1500px;
+top: 2153px;
+
+gap: 0px;
+opacity: 0px;
+font-family: Ruda;
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+/* text-align: center; */
+
+}
+#menu-p1>p{
+    text-align: center;
+}
+
+.pearl>img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.menu-item{
+display: flex;
+justify-content: space-between;
+}
+
+.pearl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items{
+    margin-top: -1200px;
+}
+
+
+.carousel{
+    width: 100%;
+    top: 3407px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+
+}
+
+.carousel>p{
+font-family: Quattrocento;
+font-size: 60px;
+/* text-align: center; */
+color: #FFFFFF;
+
+
+}
+.carouselline{
+    display: block;
+    width: 400px;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-60px;
+    margin-bottom: 100px;
+    
+    
+    background-color: #F24C4C;
+}
+
+
+
+#gp{
+    color: white;
+    font-family: Quattrocento;
+font-size: 60px;
+font-weight: 400;
+text-align: center;
+
+}
+
+.gallary{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 170px;
+}
+
+#imt1{
+    width:786px;
+    height:613px;
+    border-radius: 10px;
+
+}
+
+.imt2{
+    width:274px;
+    height:200px;
+    border-radius: 10px;
+}
+.imt3{
+    width:274px;
+    height:302px;
+    border-radius: 10px;
+}
+
+#find-us{
+    /* width: 474px;
+    height: 52px; */
+    top: 4663px;
+    /* left: -4px; */
+    gap: 0px;
+    opacity: 0px;
+    font-family: Quattrocento;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+     color: white;    
+}
+.find-line{
+    display: block;
+    width: 400px;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-60px;
+    margin-bottom: 100px;
+    
+    
+background-color: #B62828;
+
+}
+
+
+.tipu>img{
+    width: 71px;
+height: 67px;
+/* left: -445px; */
+color: white;
+
+}
+#udi{
+    font-family: Ruda;
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+text-align: left;
+color: white;
+
+}
+
+#finding{
+    display:flex;
+    width: 70%;
+    justify-content: center;
+    margin-left: 180px;
+
+}
+ #oye{
+    width: 685px;
+height: 438px;
+
+ }
+
+ .tipu{
+    color: white;
+ }
+ 
+ @media (max-width: 750px) {
+ 
+
+    #oye{
+        width: 800px;
+    height: 800px;
+    
+     }
+  
+}
+
+.foot{
+    width: 85%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foot1{
+    display:flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#env{
+    margin-bottom: -30px;
+
+}
+#phn{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
